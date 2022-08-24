@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background
+{
+    background: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form
+{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 400px;
+}
+
+form input
+{
+    display: block;
+    background: none;
+    margin: 18px auto;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: #4090db;
+    outline: none;
+    width: 250px;
+}
+
+ input:focus
+{
+    transition: 0.5s;
+    border-color: blue;
+}
+
+.submitButton
+{
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 7px;
+    color: white;
+    padding: 10px 15px;
+    width: 125px;
+    background-color: #4090db;
+    border: none;
+    box-shadow: 0 3px aquamarine;
+}
+
+.submitButton
+{
+    transition: 0.5s;
+    border-color: blue;
+}
+
+#errorMessage
+{
+    color: red;
+}
